@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios - StreamWeb</title>
+    <link rel="stylesheet" href="../Hito/styles.css">
+</head>
+<body>
+    <h1>Registro de Usuarios</h1>
+    <form id="registroUsuario" action="../Hito/registro.php" method="POST">
+        <label for="nombre">Nombre y Apellidos:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        
+        <label for="planBase">Tipo de Plan Base:</label>
+        <select id="planBase" name="planBase" required>
+            <option value="Básico">Básico</option>
+            <option value="Estándar">Estándar</option>
+            <option value="Premium">Premium</option>
+        </select>
+        
+        <label for="paqueteAdicional">Paquetes Adicionales:</label>
+        <select id="paqueteAdicional" name="paqueteAdicional">
+            <option value="">Ninguno</option>
+            <option value="Deporte">Deporte</option>
+            <option value="Cine">Cine</option>
+            <option value="Infantil">Infantil</option>
+        </select>
+        
+        <label for="duracion">Duración de la Suscripción:</label>
+        <select id="duracion" name="duracion" required>
+            <option value="Mensual">Mensual</option>
+            <option value="Anual">Anual</option>
+        </select>
+        
+        <button type="submit">Registrar Usuario</button>
+    </form>
+    <script src="../Hito/script.js"></script>
+</body>
+</html>
