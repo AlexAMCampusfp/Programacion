@@ -1,0 +1,1 @@
+En este proyecto hemos diseñado una app de Cine con javascript y Mysql la aplicacion nos permite ver las peliculas disponibles en cartelera añadir nuevas peliculas eliminar peliculas y modificar peliculas los campos que he puesto han sido el titulo de la pelicula el director la duracion y el codigo que cada pelicula tiene su propio codigo
